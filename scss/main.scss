@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+//import de la carpeta variables:
+@import './variables/extend';
+@import './variables/mixing';
+//import de la carpeta secciones:
+@import './secciones/header';

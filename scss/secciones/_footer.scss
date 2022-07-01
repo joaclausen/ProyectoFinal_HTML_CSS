@@ -1,0 +1,33 @@
+#footerIndex{
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    position: fixed;
+    bottom: 0;
+}
+@media(min-width: 320px){
+    #footerIndex{
+        .grilla{
+            height: 10vh;
+            width: 100vw;
+            .dos{
+                height: 100vh;
+                color: white;
+                display: flex !important;
+                justify-content: space-around;
+            }
+        }
+        .ig{
+            zoom: 150%;
+            &:hover{zoom:200%};
+        }
+        .tw{
+            zoom: 150%;
+            &:hover{zoom:200%};
+        }
+        .fb{
+            zoom: 150%;
+            &:hover{zoom:200%};
+        }
+    } 
+}
+
+

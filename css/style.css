@@ -5,3 +5,30 @@
 header .logotipo {
   zoom: 8%;
   opacity: 90%; }
+
+#footerIndex {
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, #3f3d3d 78.9%);
+  position: fixed;
+  bottom: 0; }
+
+@media (min-width: 320px) {
+  #footerIndex .grilla {
+    height: 10vh;
+    width: 100vw; }
+    #footerIndex .grilla .dos {
+      height: 100vh;
+      color: white;
+      display: flex !important;
+      justify-content: space-around; }
+  #footerIndex .ig {
+    zoom: 150%; }
+    #footerIndex .ig:hover {
+      zoom: 200%; }
+  #footerIndex .tw {
+    zoom: 150%; }
+    #footerIndex .tw:hover {
+      zoom: 200%; }
+  #footerIndex .fb {
+    zoom: 150%; }
+    #footerIndex .fb:hover {
+      zoom: 200%; } }

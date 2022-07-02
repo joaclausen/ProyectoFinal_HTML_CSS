@@ -2,33 +2,58 @@
   padding: 0;
   margin: 0; }
 
+.bodyindex {
+  background-image: url("https://images7.alphacoders.com/108/thumb-1920-1081776.jpg");
+  background-repeat: no-repeat; }
+
 header .logotipo {
   zoom: 8%;
   opacity: 90%; }
 
-#footerIndex {
-  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, #3f3d3d 78.9%);
-  position: fixed;
-  bottom: 0; }
+.mainindex h1 {
+  font-family: 'Bebas Neue'; }
+
+.mainindex h2 {
+  font-family: 'Lobster'; }
+
+@media (max-width: 437px) {
+  .mainindex h1 {
+    font-size: 50px;
+    text-align: center; }
+  .mainindex h2 {
+    text-align: center; } }
+
+@media (min-width: 438px) {
+  .mainindex h1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vh;
+    align-items: center;
+    font-size: 100px; }
+  .mainindex h2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vh;
+    align-items: flex-start; } }
+
+footer {
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, #3f3d3d 78.9%); }
 
 @media (min-width: 320px) {
-  #footerIndex .grilla {
+  footer .grilla .dos {
     height: 10vh;
-    width: 100vw; }
-    #footerIndex .grilla .dos {
-      height: 100vh;
-      color: white;
-      display: flex !important;
-      justify-content: space-around; }
-  #footerIndex .ig {
+    color: white;
+    display: flex !important;
+    justify-content: space-around; }
+  footer .ig {
     zoom: 150%; }
-    #footerIndex .ig:hover {
+    footer .ig:hover {
       zoom: 200%; }
-  #footerIndex .tw {
+  footer .tw {
     zoom: 150%; }
-    #footerIndex .tw:hover {
+    footer .tw:hover {
       zoom: 200%; }
-  #footerIndex .fb {
+  footer .fb {
     zoom: 150%; }
-    #footerIndex .fb:hover {
+    footer .fb:hover {
       zoom: 200%; } }

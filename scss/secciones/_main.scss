@@ -1,0 +1,28 @@
+.mainindex{
+    h1{font-family: 'Bebas Neue';}
+    h2{font-family: 'Lobster';}
+    @media(max-width: 437px){
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+    }
+    @media(min-width: 438px){
+        h1{
+            display: flex;
+            justify-content: space-evenly;
+            height: 25vh;
+            align-items: center;
+            font-size: 100px;
+        }
+        h2{
+            display: flex;
+            justify-content: space-evenly;
+            height: 25vh;
+            align-items: flex-start;
+        }
+    }
+}

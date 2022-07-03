@@ -1,0 +1,18 @@
+index.html:
+
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica 
+en pocas palabras el contenido de mi sitio: “Fansite de la saga de Resident Evil".
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a 
+todas las páginas de mi sitio: "VIDEOJUEGO, JUEGO, ZOMBIES, CONSOLAS, PC, TERROR, SURVIVAL, FANSITE".
+
+Encabezado: para el encabezado del h1 utilicé el texto “JacintoMania”.
+------------------------------------------------------------------------------------------------------------------
+contacto.html:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica 
+en pocas palabras el contenido de mi sitio: “Fansite de la saga de Resident Evil".
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a 
+todas las páginas de mi sitio: "VIDEOJUEGO, JUEGO, ZOMBIES, CONSOLAS, PC, TERROR, SURVIVAL, FANSITE".
+
+Encabezado: para el encabezado del h1 utilicé el texto "Contactame".

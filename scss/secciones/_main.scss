@@ -1,6 +1,22 @@
 .mainindex{
     h1{font-family: 'Bebas Neue';}
     h2{font-family: 'Lobster';}
+    text-align: center;
+    .btn-primary{
+        margin: 20px;
+        width: 10vw;
+        align-self: center;
+    }
+    @media(max-width: 731px) {
+        .btn-primary{
+            width: 20vw;
+        }
+    }
+    @media(max-width: 476px) {
+        .btn-primary{
+            width: 30vw;
+        }
+    }
     @media(max-width: 437px){
         h1{
             font-size: 50px;
@@ -24,5 +40,8 @@
             height: 25vh;
             align-items: flex-start;
         }
+    }
+    @media(min-width: 576px){
+        margin: 40px;
     }
 }

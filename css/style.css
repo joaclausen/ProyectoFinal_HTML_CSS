@@ -4,37 +4,50 @@
 
 .bodyindex {
   background-image: url("https://images7.alphacoders.com/108/thumb-1920-1081776.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 header .logotipo {
   zoom: 8%;
   opacity: 90%; }
 
-.mainindex h1 {
-  font-family: 'Bebas Neue'; }
-
-.mainindex h2 {
-  font-family: 'Lobster'; }
-
-@media (max-width: 437px) {
+.mainindex {
+  text-align: center; }
   .mainindex h1 {
-    font-size: 50px;
-    text-align: center; }
+    font-family: 'Bebas Neue'; }
   .mainindex h2 {
-    text-align: center; } }
-
-@media (min-width: 438px) {
-  .mainindex h1 {
-    display: flex;
-    justify-content: space-evenly;
-    height: 25vh;
-    align-items: center;
-    font-size: 100px; }
-  .mainindex h2 {
-    display: flex;
-    justify-content: space-evenly;
-    height: 25vh;
-    align-items: flex-start; } }
+    font-family: 'Lobster'; }
+  .mainindex .btn-primary {
+    margin: 20px;
+    width: 10vw;
+    align-self: center; }
+  @media (max-width: 731px) {
+    .mainindex .btn-primary {
+      width: 20vw; } }
+  @media (max-width: 476px) {
+    .mainindex .btn-primary {
+      width: 30vw; } }
+  @media (max-width: 437px) {
+    .mainindex h1 {
+      font-size: 50px;
+      text-align: center; }
+    .mainindex h2 {
+      text-align: center; } }
+  @media (min-width: 438px) {
+    .mainindex h1 {
+      display: flex;
+      justify-content: space-evenly;
+      height: 25vh;
+      align-items: center;
+      font-size: 100px; }
+    .mainindex h2 {
+      display: flex;
+      justify-content: space-evenly;
+      height: 25vh;
+      align-items: flex-start; } }
+  @media (min-width: 576px) {
+    .mainindex {
+      margin: 40px; } }
 
 footer {
   background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, #3f3d3d 78.9%); }

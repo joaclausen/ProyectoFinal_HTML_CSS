@@ -8,8 +8,11 @@
   background-size: cover; }
 
 .bodycontacto {
+  background-color: black;
   background-image: url("https://preview.redd.it/4ixw21xcxvb51.png?auto=webp&s=1a7ca0c75143639c5ef8d694c3f84eb17cf49c83");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top; }
 
 header .logotipo {
   zoom: 8%;
@@ -52,6 +55,14 @@ header .logotipo {
   @media (min-width: 576px) {
     .mainindex {
       margin: 40px; } }
+
+.maincontacto {
+  height: 90vh;
+  text-align: center; }
+  .maincontacto h1 {
+    font-family: 'Bebas Neue';
+    margin: 5rem;
+    color: white; }
 
 footer {
   background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, #3f3d3d 78.9%); }

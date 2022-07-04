@@ -54,3 +54,46 @@
     height: 90vh;
     text-align: center;
 }
+.mainabout{
+    font-size: larger;
+    width: 85vw;
+    max-width: 700px;
+    margin: auto;
+    .titulos{
+        list-style: none;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        a{
+            padding: 1px;
+            text-decoration: none;
+            color: maroon;
+            &:hover{zoom:110%};
+        }
+        
+    }
+    .ordenes{
+        list-style: none;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        a{
+            padding: 1px;
+            text-decoration: none;
+            color: maroon;
+            &:hover{zoom:110%};
+        }
+    }
+    .contactarme{
+        list-style: none;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        a{
+            padding: 1px;
+            text-decoration: none;
+            color: maroon;
+            &:hover{zoom:110%};
+        }
+    }
+}

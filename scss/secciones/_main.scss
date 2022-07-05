@@ -56,7 +56,7 @@
     height: 90vh;
     text-align: center;
 }
-//INFORMACION
+//SCSS COMUN PARA TODAS LAS SECCIONES DE INFORMACION
 .mainabout{
     font-size: larger;
     width: 85vw;
@@ -70,7 +70,7 @@
       "Logo Logo Logo"
       "Premisa Premisa Plataformas"
       ". . .";
-  }
+}
   
 .Logo0{@include logostyle('https://i.ytimg.com/vi/8i23-QWPIzs/maxresdefault.jpg');}
 .Logo1{@include logostyle('../../img/tit1.jpg');}

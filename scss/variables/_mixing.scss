@@ -1,0 +1,16 @@
+@mixin logostyle($enlaceFondo){
+    border: solid 2px white; 
+    grid-area: Logo; 
+    background-image: url($enlaceFondo);
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@mixin premisaPlataforma($pad, $gridArea){
+    padding: $pad;
+    grid-area: $gridArea; 
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}

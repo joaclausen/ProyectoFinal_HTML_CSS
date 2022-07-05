@@ -1,0 +1,22 @@
+%estiloContainer{
+    display: grid;
+    padding: 2rem; 
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+%orden_contacto_titulos{
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    a{
+        padding: 1px;
+        text-decoration: none;
+        color: maroon;
+        &:hover{zoom:110%};
+    }
+}

@@ -56,58 +56,11 @@
     height: 90vh;
     text-align: center;
 }
-//SCSS COMUN PARA TODAS LAS SECCIONES DE INFORMACION
+//ABOUT.HTML
 .mainabout{
     font-size: larger;
     width: 85vw;
     max-width: 700px;
     margin: auto;
     .ordenes, .contactarme, .titulos{@extend %orden_contacto_titulos};
-}
-.container {
-    @extend %estiloContainer;
-    grid-template-areas:
-      "Logo Logo Logo"
-      "Premisa Premisa Plataformas"
-      ". . .";
-}
-  
-.Logo0{@include logostyle('https://i.ytimg.com/vi/8i23-QWPIzs/maxresdefault.jpg');}
-.Logo1{@include logostyle('../../img/tit1.jpg');}
-.Logo2{@include logostyle('../../img/tit2.jpg');}
-.Logo3{@include logostyle('../../img/tit3.jpg');}
-.LogoCV{@include logostyle('../../img/titcv.jpg');}
-.Logo4{@include logostyle('../../img/tit4.jpg');}
-.Logo5{@include logostyle('../../img/tit5.jpg');}
-.Logo6{@include logostyle('../../img/tit6.jpg');}
-.Logo7{@include logostyle('../../img/tit7.jpg');}
-.Logo8{@include logostyle('../../img/tit8.jpg');}
-  
-.Premisa {@include premisaPlataforma(1rem, Premisa);}
-.Plataformas {
-    vertical-align: middle;
-    text-align: center;
-    @include premisaPlataforma(2rem, Plataformas);
-}
-
-@media(max-width: 767px){
-    .container {
-        height: 210vh;
-        display: grid;
-        padding: 2rem; 
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "Logo Logo Logo"
-          "Premisa Premisa Premisa"
-          "Plataformas Plataformas Plataformas"
-          ". . .";
-    }
-}  
-@media(min-width: 768px) {
-    .container{height: 130vh;}
-    .Logo0, .Logo1, .Logo2, .Logo3, .LogoCV, .Logo4, .logo5, .logo6, .logo6, .logo7, .logo8{height: 40vh;}
 }

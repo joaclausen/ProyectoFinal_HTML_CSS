@@ -2,16 +2,6 @@
   padding: 0;
   margin: 0; }
 
-.container {
-  display: grid;
-  padding: 2rem;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row; }
-
 .mainabout .ordenes, .mainabout .contactarme, .mainabout .titulos {
   list-style: none;
   padding: 0;
@@ -102,133 +92,6 @@ header .logotipo {
   width: 85vw;
   max-width: 700px;
   margin: auto; }
-
-.container {
-  grid-template-areas: "Logo Logo Logo" "Premisa Premisa Plataformas" ". . ."; }
-
-.Logo0 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("https://i.ytimg.com/vi/8i23-QWPIzs/maxresdefault.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo1 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit1.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo2 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit2.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo3 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit3.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.LogoCV {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/titcv.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo4 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit4.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo5 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit5.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo6 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit6.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo7 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit7.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Logo8 {
-  border: solid 2px white;
-  grid-area: Logo;
-  background-image: url("../../img/tit8.jpg");
-  background-color: black;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.Premisa {
-  padding: 1rem;
-  grid-area: Premisa;
-  background-color: black;
-  color: white;
-  border: solid 2px white; }
-
-.Plataformas {
-  vertical-align: middle;
-  text-align: center;
-  padding: 2rem;
-  grid-area: Plataformas;
-  background-color: black;
-  color: white;
-  border: solid 2px white; }
-
-@media (max-width: 767px) {
-  .container {
-    height: 210vh;
-    display: grid;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "Logo Logo Logo" "Premisa Premisa Premisa" "Plataformas Plataformas Plataformas" ". . ."; } }
-
-@media (min-width: 768px) {
-  .container {
-    height: 130vh; }
-  .Logo0, .Logo1, .Logo2, .Logo3, .LogoCV, .Logo4, .logo5, .logo6, .logo6, .logo7, .logo8 {
-    height: 40vh; } }
 
 footer {
   background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, #3f3d3d 78.9%); }

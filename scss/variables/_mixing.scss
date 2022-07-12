@@ -1,0 +1,11 @@
+@mixin font-margin-color ($fs, $m, $c) {
+        font-family: $fs;
+        margin: $m;
+        color: $c;
+}
+@mixin index-mixin ($alg) {
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vh;
+    align-items: $alg;
+}

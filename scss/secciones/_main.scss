@@ -29,18 +29,10 @@
     }
     @media(min-width: 438px){
         h1{
-            display: flex;
-            justify-content: space-evenly;
-            height: 25vh;
-            align-items: center;
+            @include index-mixin (center);
             font-size: 100px;
         }
-        h2{
-            display: flex;
-            justify-content: space-evenly;
-            height: 25vh;
-            align-items: flex-start;
-        }
+        h2{@include index-mixin (flex-start);}
     }
     @media(min-width: 576px){
         margin: 40px;
@@ -48,19 +40,12 @@
 }
 //CONTACTO.HTML
 .maincontacto{
-    h1{
-        font-family: 'Bebas Neue';
-        margin: 5rem;
-        color: white;
-    }
+    h1{@include font-margin-color ('Bebas Neue', 5rem, white)};
     height: 90vh;
     text-align: center;
 }
 //ABOUT.HTML
 .mainabout{
-    font-size: larger;
-    width: 85vw;
-    max-width: 700px;
-    margin: auto;
+    @extend %aboutStyle;
     .ordenes, .contactarme, .titulos{@extend %orden_contacto_titulos};
 }

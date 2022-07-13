@@ -9,3 +9,8 @@
     height: 25vh;
     align-items: $alg;
 }
+@mixin bodyProp ($enlace, $tam) {
+    background-image: url($enlace);
+    background-size: $tam;
+    background-repeat: no-repeat;
+}

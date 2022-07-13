@@ -22,32 +22,33 @@
 
 .bodyindex {
   background-image: url("https://images7.alphacoders.com/108/thumb-1920-1081776.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .bodycontacto {
-  background-color: black;
   background-image: url("https://preview.redd.it/4ixw21xcxvb51.png?auto=webp&s=1a7ca0c75143639c5ef8d694c3f84eb17cf49c83");
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: top; }
+  background-position-y: top;
+  background-color: black; }
 
 .bodyabout {
-  background-color: black;
-  background-repeat: no-repeat;
+  background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/895950/8f4030e5e345f51f1c2bacaf410dacb4d4f8bd52.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center; }
 
 .bodyinfo {
   background-image: url("https://i.pinimg.com/originals/2a/2a/25/2a2a250c1c28611dc86a166050b60a7a.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center; }
 
 .bodyorden {
   background-image: url("https://www.hd-tecnologia.com/imagenes/articulos/2016/08/Resident-Evil-7-Gamescom.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 header .logotipo {
   zoom: 8%;

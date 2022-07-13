@@ -41,6 +41,12 @@
 .bodyinfo {
   background-image: url("https://i.pinimg.com/originals/2a/2a/25/2a2a250c1c28611dc86a166050b60a7a.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.bodyorden {
+  background-image: url("https://www.hd-tecnologia.com/imagenes/articulos/2016/08/Resident-Evil-7-Gamescom.jpg");
+  background-repeat: no-repeat;
   background-size: cover; }
 
 header .logotipo {

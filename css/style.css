@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800");
 * {
   padding: 0;
   margin: 0; }
 
+/* Import */
+/* Variables */
 .mainabout .ordenes, .mainabout .contactarme, .mainabout .titulos {
   list-style: none;
   padding: 0;
@@ -46,9 +49,7 @@
   background-position: center; }
 
 .bodyorden {
-  background-image: url("https://www.hd-tecnologia.com/imagenes/articulos/2016/08/Resident-Evil-7-Gamescom.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-color: black; }
 
 header .logotipo {
   zoom: 8%;
@@ -110,7 +111,7 @@ header .logotipo {
   font-family: 'Bebas Neue';
   text-align: center;
   color: white;
-  padding: 2rem; }
+  padding: 5rem; }
 
 .re0 {
   background-image: url("../../img/tit0.jpg") !important;
@@ -274,6 +275,128 @@ header .logotipo {
   background: #FC354C;
   background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
   background: linear-gradient(to right, #0ABFBC, #FC354C); }
+
+.mainorden {
+  /* Base */
+  /* Timeline */ }
+  .mainorden .tituloOrden {
+    font-family: 'Bebas Neue';
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    margin: 2rem; }
+  .mainorden h3 {
+    background-color: #b7b7b7;
+    color: black;
+    width: 40vw; }
+  .mainorden .parrafoOrden {
+    font-family: "Chivo", sans-serif;
+    color: white;
+    padding: 2rem;
+    font-size: larger;
+    width: 60vw;
+    position: relative;
+    left: 20vw; }
+  .mainorden p {
+    font-weight: 300;
+    width: 40vw; }
+  .mainorden a {
+    color: #6c6d6d;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: .3em;
+    font-size: .6em;
+    font-weight: 400;
+    background: #252727;
+    padding: .3rem 1rem;
+    margin: 1.9rem 0 0 0;
+    float: right; }
+  .mainorden a:hover {
+    color: white;
+    background: #004ffc;
+    border-bottom: .35em solid black; }
+  .mainorden strong {
+    font-weight: 600; }
+  .mainorden h1 {
+    font-family: "Saira", sans-serif;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
+    font-size: 2.4em; }
+  .mainorden #timeline-content {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white; }
+  .mainorden .timeline {
+    background-color: black;
+    border-left: 4px solid #004ffc;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: fade(white, 3%);
+    color: fade(white, 80%);
+    font-family: "Chivo", sans-serif;
+    margin: 50px auto;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 30%; }
+    .mainorden .timeline li {
+      background-color: black; }
+      .mainorden .timeline li p {
+        width: 40vw; }
+    .mainorden .timeline h1 {
+      font-family: "Saira", sans-serif;
+      letter-spacing: 1.5px;
+      font-weight: 100;
+      font-size: 1.4em; }
+    .mainorden .timeline h2, .mainorden .timeline h3 {
+      font-family: "Saira", sans-serif;
+      letter-spacing: 1.5px;
+      font-weight: 400;
+      font-size: 1.4em; }
+    .mainorden .timeline .event {
+      border-bottom: 1px dashed fade(white, 10%);
+      padding-bottom: 25px;
+      margin-bottom: 50px;
+      position: relative; }
+      .mainorden .timeline .event:last-of-type {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none; }
+      .mainorden .timeline .event:before, .mainorden .timeline .event:after {
+        position: absolute;
+        display: block;
+        top: 0; }
+      .mainorden .timeline .event:before {
+        left: -217.5px;
+        color: fade(white, 40%);
+        content: attr(data-date);
+        text-align: right;
+        font-weight: 100;
+        font-size: 0.9em;
+        min-width: 120px;
+        font-family: "Saira", sans-serif; }
+      .mainorden .timeline .event:after {
+        box-shadow: 0 0 0 4px fade(#004ffc, 100%);
+        left: -57.85px;
+        background: #313534;
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        content: "";
+        top: 5px; }
+  @media (max-width: 856px) {
+    .mainorden .parrafoOrden {
+      width: 100vw;
+      position: relative;
+      left: 1vw; } }
 
 footer {
   background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, #3f3d3d 78.9%); }
